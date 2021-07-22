@@ -46,6 +46,13 @@ data.products.each do |_filename, product|
   ignore: true
 end
 
+data.days.each do |_filename, day|
+  proxy "/day/#{day[:title].parameterize}/index.html", "day.html", 
+  locals: {day: day}, 
+  layout: 'day-detail',
+  ignore: true
+end
+
 # Helpers
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/

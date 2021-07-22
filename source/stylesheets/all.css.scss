@@ -1,28 +1,153 @@
 //setup
 @charset 'utf-8';
 
-//bootstrap stuff
-@import 'demo/base/variables';
-@import 'demo/base/mixins';
-@import 'demo/base/normalize';
-@import 'demo/base/scaffolding';
-@import 'demo/base/type';
 
-@import 'demo/base/colors';
-@import 'demo/base/typography';
-@import 'demo/base/grid';
-@import 'demo/base/placeholders';
 
-@import 'demo/shared/header-primary';
-@import 'demo/shared/main-content';
-@import 'demo/shared/footer';
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-@import 'demo/products/products';
-@import 'demo/products/product';
-@import 'demo/products/product-detail';
+html, body{
+    margin: 0;
+    padding:0;
+ }
 
-@import 'demo/news/news';
-@import 'demo/news/news-detail';
+.main-header {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 0;
+    font-size: 4em;
+    padding: 0.8em;
+}
 
-@import 'demo/homepage/hero';
-@import 'demo/homepage/story';
+.main-header{
+    background-image: url("/images/groupfotocropped.jpg");
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.intro-text {
+    padding-bottom: 20px;
+}
+
+.ul1{ 
+    display: inline;
+    padding: 250px 15%;
+    margin: 100px 0;
+}
+
+
+
+.Sunday {
+    background-image: url("/images/pfeifferhorn.jpg");
+    background-size: cover;
+    padding-bottom: 80px;
+    width: 600px;
+    height: 400px;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    padding-top: 3.5em;
+}
+
+.Monday {
+    background-image: url("/images/Lookout\ peak.jpg");
+    background-size: cover;
+    padding-bottom: 80px;
+    width: 600px;
+    height: 400px;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    padding-top: 3.5em;
+}
+
+.Tuesday {
+    background-image: url("/images/Grandeur.png");
+    background-size: cover;
+    padding-bottom: 80px;
+    width: 600px;
+    height: 400px;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    padding-top: 3.5em;
+}
+
+.Wednesday {
+    background-image: url("/images/murdock\ peakk.jpeg");
+    background-size: cover;
+    padding-bottom: 80px;
+    width: 600px;
+    height: 400px;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    padding-top: 3.5em;
+}
+
+.Thursday {
+    background-image: url("/images/big\ mountain\ pass.jpg");
+    background-size: cover;
+    padding-bottom: 80px;
+    width: 600px;
+    height: 400px;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    padding-top: 3.5em;
+}
+.Friday {
+    background-image: url("/images/summit\ park.jpg");
+    background-size: cover;
+    padding-bottom: 80px;
+    width: 600px;
+    height: 400px;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    padding-top: 3.5em;
+}
+
+.Saturday {
+    background-image: url("/images/BenLomond.jpg.crdownload");
+    background-size: cover;
+    padding-bottom: 80px;
+    width: 600px;
+    height: 400px;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    padding-top: 3.5em;
+}
+
+.center {
+    margin: auto;
+    width: 75%;
+    border: 3px solid white;
+  }
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    }
+
+.container2{
+    max-width: 100px;
+}
+
+
+
